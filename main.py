@@ -24,9 +24,9 @@ WAIT_AFTER_CLICK_MS = int(os.getenv("WAIT_AFTER_CLICK_MS", "400"))
 START_NUMBER  = int(os.getenv("START_NUMBER", "1"))
 QUICK_CHECK_MS = int(os.getenv("QUICK_CHECK_MS", "2000"))
 
-FIXED_UA   = os.getenv("FIXED_UA", "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36")
+FIXED_UA   = os.getenv("FIXED_UA", "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36")
 LOCALE     = os.getenv("LOCALE", "ru-RU")
-TIMEZONE   = os.getenv("TIMEZONE", "America/Edmonton")
+TIMEZONE   = os.getenv("TIMEZONE", "Europe/Warsaw")
 
 # селекторы
 SEL_HIDE_MY_EMAIL   = os.getenv("SEL_HIDE_MY_EMAIL")
